@@ -1,0 +1,11 @@
+C:\Users\serha\RiderProjects\todofinal\todofinal.Domain\bin\Debug\net8.0\todofinal.Domain.deps.json
+C:\Users\serha\RiderProjects\todofinal\todofinal.Domain\bin\Debug\net8.0\todofinal.Domain.dll
+C:\Users\serha\RiderProjects\todofinal\todofinal.Domain\bin\Debug\net8.0\todofinal.Domain.pdb
+C:\Users\serha\RiderProjects\todofinal\todofinal.Domain\obj\Debug\net8.0\todofinal.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\serha\RiderProjects\todofinal\todofinal.Domain\obj\Debug\net8.0\todofinal.Domain.AssemblyInfoInputs.cache
+C:\Users\serha\RiderProjects\todofinal\todofinal.Domain\obj\Debug\net8.0\todofinal.Domain.AssemblyInfo.cs
+C:\Users\serha\RiderProjects\todofinal\todofinal.Domain\obj\Debug\net8.0\todofinal.Domain.csproj.CoreCompileInputs.cache
+C:\Users\serha\RiderProjects\todofinal\todofinal.Domain\obj\Debug\net8.0\todofinal.Domain.dll
+C:\Users\serha\RiderProjects\todofinal\todofinal.Domain\obj\Debug\net8.0\refint\todofinal.Domain.dll
+C:\Users\serha\RiderProjects\todofinal\todofinal.Domain\obj\Debug\net8.0\todofinal.Domain.pdb
+C:\Users\serha\RiderProjects\todofinal\todofinal.Domain\obj\Debug\net8.0\ref\todofinal.Domain.dll
