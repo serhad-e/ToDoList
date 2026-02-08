@@ -5,6 +5,7 @@ using todofinal.Domain.Entities;
 namespace todofinal.Application.Mappings;
 public class MappingProfile : Profile
 {
+    
     public MappingProfile()
     {
         // ToDoTask (Veritabanı Nesnesi) -> ToDoDto (Dışarı Verilecek Nesne)
