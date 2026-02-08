@@ -111,3 +111,4 @@ C:\Users\serha\RiderProjects\todofinal\todofinal.Tests\obj\Debug\net8.0\refint\t
 C:\Users\serha\RiderProjects\todofinal\todofinal.Tests\obj\Debug\net8.0\todofinal.Tests.pdb
 C:\Users\serha\RiderProjects\todofinal\todofinal.Tests\obj\Debug\net8.0\todofinal.Tests.genruntimeconfig.cache
 C:\Users\serha\RiderProjects\todofinal\todofinal.Tests\obj\Debug\net8.0\ref\todofinal.Tests.dll
+C:\Users\serha\RiderProjects\todofinal\todofinal.Tests\obj\Debug\net8.0\todofinal.Tests.sourcelink.json
