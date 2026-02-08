@@ -1,4 +1,6 @@
+[Bb]in/
+[Ob]j/
+.vs/
 .idea/
-*.DotSettings.user
-bin/
-obj/
+*.user
+appsettings.json
