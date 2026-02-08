@@ -1,5 +1,4 @@
 C:\Users\serha\RiderProjects\todofinal\todofinal.API\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\serha\RiderProjects\todofinal\todofinal.API\bin\Debug\net8.0\appsettings.json
 C:\Users\serha\RiderProjects\todofinal\todofinal.API\bin\Debug\net8.0\todofinal.API.exe
 C:\Users\serha\RiderProjects\todofinal\todofinal.API\bin\Debug\net8.0\todofinal.API.deps.json
 C:\Users\serha\RiderProjects\todofinal\todofinal.API\bin\Debug\net8.0\todofinal.API.runtimeconfig.json
@@ -122,3 +121,4 @@ C:\Users\serha\RiderProjects\todofinal\todofinal.API\bin\Debug\net8.0\Microsoft.
 C:\Users\serha\RiderProjects\todofinal\todofinal.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\serha\RiderProjects\todofinal\todofinal.API\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\serha\RiderProjects\todofinal\todofinal.API\obj\Debug\net8.0\todofinal.API.sourcelink.json
+C:\Users\serha\RiderProjects\todofinal\todofinal.API\bin\Debug\net8.0\appsettings.json

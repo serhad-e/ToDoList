@@ -8,4 +8,6 @@ public interface ITodoRepository
     Task UpdateAsync(ToDoTask task); // Güncelle
     Task DeleteAsync(int id); // Sil
     Task<List<ToDoTask>> GetPagedTasksAsync(int pageNumber, int pageSize);
+    Task<List<ToDoTask>> GetTasksByUserIdAsync(int userId);
+
 }

@@ -56,17 +56,12 @@ public class TodoController : ControllerBase
     [HttpPost("create")]
     public async Task<IActionResult> Create([FromBody] CreateTodoDto dto)
     {
-        // Token içindeki 'NameIdentifier' (ID) bilgisini çekiyoruz
-        var userIdClaim = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier);
+        int userId = GetUserIdFromToken();
     
-        if (userIdClaim == null) 
-            return Unauthorized("Kullanıcı bilgisi token içerisinde bulunamadı.");
+        if (userId == 0) 
+            return Unauthorized("Kullanıcı bilgisi bulunamadı.");
 
-        int userId = int.Parse(userIdClaim.Value);
-
-        // Servis metoduna hem DTO'yu hem de token'dan gelen userId'yi gönderiyoruz
         var taskId = await _todoService.CreateTaskAsync(dto, userId);
-    
         return Ok(new { id = taskId, message = "Görev başarıyla oluşturuldu." });
     }
 
@@ -95,5 +90,16 @@ public class TodoController : ControllerBase
             return NotFound(new { message = "Görev bulunamadı veya bu görevi güncelleme yetkiniz yok!" });
 
         return Ok(new { message = "Görev başarıyla güncellendi!" });
+    }
+    [HttpGet("stats")]
+    public async Task<IActionResult> GetStats()
+    {
+        // Senin meşhur yardımcı metodunla ID'yi çekiyoruz
+        int userId = GetUserIdFromToken();
+    
+        if (userId == 0) return Unauthorized();
+
+        var stats = await _todoService.GetStatsByUserIdAsync(userId);
+        return Ok(stats);
     }
 }

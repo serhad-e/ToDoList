@@ -15,3 +15,4 @@ C:\Users\serha\RiderProjects\todofinal\todofinal.Infrastructure\obj\Debug\net8.0
 C:\Users\serha\RiderProjects\todofinal\todofinal.Infrastructure\obj\Debug\net8.0\refint\todofinal.Infrastructure.dll
 C:\Users\serha\RiderProjects\todofinal\todofinal.Infrastructure\obj\Debug\net8.0\todofinal.Infrastructure.pdb
 C:\Users\serha\RiderProjects\todofinal\todofinal.Infrastructure\obj\Debug\net8.0\ref\todofinal.Infrastructure.dll
+C:\Users\serha\RiderProjects\todofinal\todofinal.Infrastructure\obj\Debug\net8.0\todofinal.Infrastructure.sourcelink.json

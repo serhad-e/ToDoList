@@ -13,3 +13,4 @@ C:\Users\serha\RiderProjects\todofinal\todofinal.Application\obj\Debug\net8.0\to
 C:\Users\serha\RiderProjects\todofinal\todofinal.Application\obj\Debug\net8.0\refint\todofinal.Application.dll
 C:\Users\serha\RiderProjects\todofinal\todofinal.Application\obj\Debug\net8.0\todofinal.Application.pdb
 C:\Users\serha\RiderProjects\todofinal\todofinal.Application\obj\Debug\net8.0\ref\todofinal.Application.dll
+C:\Users\serha\RiderProjects\todofinal\todofinal.Application\obj\Debug\net8.0\todofinal.Application.sourcelink.json

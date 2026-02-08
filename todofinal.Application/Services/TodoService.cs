@@ -104,4 +104,22 @@ public class TodoService:ITodoService
     
         return _mapper.Map<List<TodoDto>>(userTasks);
     }
+
+    public async Task<TodoStatsDto> GetStatsByUserIdAsync(int userId)
+    {
+        var tasks = await _todoRepository.GetTasksByUserIdAsync(userId);
+
+        var stats = new TodoStatsDto
+        {
+            ToplamGorevSayisi = tasks.Count,
+            TamamlananGorevSayisi = tasks.Count(t => t.IsCompleted),
+            BekleyenGorevSayisi = tasks.Count(t => !t.IsCompleted)
+        };
+
+        stats.TamamlanmaYuzdesi = stats.ToplamGorevSayisi > 0 
+            ? Math.Round((double)stats.TamamlananGorevSayisi / stats.ToplamGorevSayisi * 100, 2) 
+            : 0;
+
+        return stats;
+    }
 }

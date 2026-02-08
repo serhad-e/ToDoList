@@ -12,4 +12,5 @@ public interface ITodoService
     // YENİ: Sadece belirli bir kullanıcıya ait görevleri getiren metot
     Task<TodoDto?> GetTaskByIdAsync(int id, int userId); // userId ekledik
     Task<List<TodoDto>> GetTasksByUserIdAsync(int userId);
+    Task<TodoStatsDto> GetStatsByUserIdAsync(int userId);
 }

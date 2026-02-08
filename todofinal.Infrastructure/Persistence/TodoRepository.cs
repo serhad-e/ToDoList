@@ -50,4 +50,11 @@ public class TodoRepository:ITodoRepository
             .Skip((pageNumber - 1) * pageSize)    // Önceki sayfaları atla
             .Take(pageSize)                       // İstenen miktar kadar al
             .ToListAsync();    }
+
+    public async Task<List<ToDoTask>> GetTasksByUserIdAsync(int userId)
+    {
+        return await _context.ToDoTasks
+            .Where(t => t.UserId == userId)
+            .ToListAsync();
+    }
 }
